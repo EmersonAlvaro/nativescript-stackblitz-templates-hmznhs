@@ -1,0 +1,22 @@
+<TabView androidTabsPosition="bottom">
+    <TabViewItem title="Home" iconSource="res://icon" >
+        <Frame defaultPage="home/home-items-page" />
+    </TabViewItem>
+
+    <TabViewItem title="CarPooling" iconSource="res://icon" >
+        <Frame defaultPage="carpooling/carpooling-page" />
+    </TabViewItem>
+
+    <TabViewItem title="Timeline" iconSource="res://icon" >
+        <Frame defaultPage="timeline/timeline-page" />
+    </TabViewItem>
+
+    <TabViewItem title="Event" iconSource="res://icon" >
+        <Frame defaultPage="event/event-page" />
+    </TabViewItem>
+    
+    <TabViewItem title="Profile" iconSource="font://fas" >
+        <Frame defaultPage="profile/profile-page" />
+    </TabViewItem>
+
+</TabView>

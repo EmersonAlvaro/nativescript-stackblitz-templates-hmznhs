@@ -1,0 +1,22 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <Label text="Home" />
+    </ActionBar>
+
+    <!-- <ListView items="{{ items }}" itemTap="onItemTap">
+        <ListView.itemTemplate>
+            <StackLayout orientation="horizontal">
+                <Label text="{{ name }}" textWrap="true" />
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView> -->
+
+    <!-- <Label class="fa" text="{{'fa-bluetooth' | fontawesome }}"></Label>  -->
+
+    <GridLayout class="page__content">
+        <Label class="page__content-icon fa-home" text="&#xf002;">
+        </Label>
+        <Label class="page__content-placeholder" text="<!-- Search page content goes here -->"></Label>
+    </GridLayout>
+</Page>
