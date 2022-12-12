@@ -1,7 +1,4 @@
 import { Application } from '@nativescript/core';
-import { Fontawesome } from 'nativescript-fontawesome';
-Fontawesome.init();
-
 Application.run({ moduleName: 'app-root' });
 
 /*
