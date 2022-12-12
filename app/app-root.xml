@@ -15,6 +15,10 @@
         <Frame defaultPage="event/event-page" />
     </TabViewItem>
     
+    <TabViewItem title="MyU" iconSource="font://fas" >
+        <Frame defaultPage="myu/myu-page" />
+    </TabViewItem>
+
     <TabViewItem title="Profile" iconSource="font://fas" >
         <Frame defaultPage="profile/profile-page" />
     </TabViewItem>
